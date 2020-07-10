@@ -1,0 +1,1 @@
+nohup /usr/src/trojan/trojan -c /usr/src/trojan/server.conf >/dev/null 2>&1 &

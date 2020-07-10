@@ -1,0 +1,8 @@
+
+if [ ! -n "$1" ]; then
+	echo -e "\033[31m需要指定SVN目录!\033[0m"
+else
+	stopsvn
+	echo "SVN启动成功: $1"
+	svnserve -d -r $1
+fi
