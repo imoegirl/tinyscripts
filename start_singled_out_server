@@ -1,0 +1,1 @@
+nohup node projects/nodejs/singled_out_server/ >/dev/null 2>&1 &

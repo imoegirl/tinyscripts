@@ -1,0 +1,1 @@
+nohup node projects/nodejs/astromouse_server/ >/dev/null 2>&1 &
